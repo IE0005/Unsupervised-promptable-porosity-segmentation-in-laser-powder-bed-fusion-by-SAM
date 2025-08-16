@@ -221,7 +221,7 @@ for filename in os.listdir(image_folder):
 
 # Specify the paths to the two folders
 output_folder = '.../sample_5/pred_mask_final/cluster_1'
-ground_truth_folder = '..../sample_5/GT/cluster_1' #for sample 6 only 
+ground_truth_folder = '..../sample_5/GT/cluster_1' #for sample 5 only 
 # Create lists of file names in the two folders
 output_files = sorted([f for f in os.listdir(output_folder) if f.endswith('.png')])
 ground_truth_files = sorted([f for f in os.listdir(ground_truth_folder) if f.endswith('.png')])
@@ -390,7 +390,7 @@ for filename in os.listdir(image_folder):
 
 # Specify the paths to the two folders
 output_folder = '.../sample_5/pred_mask_final/cluster_2'
-ground_truth_folder = '.../sample_5/GT/cluster_2' #sample 6 only 
+ground_truth_folder = '.../sample_5/GT/cluster_2' #sample 5 only 
 # Create lists of file names in the two folders
 output_files = sorted([f for f in os.listdir(output_folder) if f.endswith('.png')])
 ground_truth_files = sorted([f for f in os.listdir(ground_truth_folder) if f.endswith('.png')])
@@ -562,8 +562,8 @@ for filename in os.listdir(image_folder):
 
 
 # Specify the paths to the two folders
-output_folder = '....sample_6/pred_mask_final/cluster_3'
-ground_truth_folder = '..../sample_5/GT/cluster_3' #sample 6 only 
+output_folder = '....sample_5/pred_mask_final/cluster_3'
+ground_truth_folder = '..../sample_5/GT/cluster_3' #sample 5 only 
 # Create lists of file names in the two folders
 output_files = sorted([f for f in os.listdir(output_folder) if f.endswith('.png')])
 ground_truth_files = sorted([f for f in os.listdir(ground_truth_folder) if f.endswith('.png')])
