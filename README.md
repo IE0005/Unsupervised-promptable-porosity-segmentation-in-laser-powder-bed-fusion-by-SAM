@@ -2,6 +2,9 @@
 
 This repository contains code for the [An unsupervised approach towards promptable porosity segmentation in laser powder bed fusion by segment anything](https://www.nature.com/articles/s44334-025-00021-4)-submitted framework built on top of the Segment Anything Model (SAM). It focuses on **unsupervised prompt generation from the data** to perform **weakly supervised porosity segmentation** without any supervised fine-tuning. The scripts are modular and support different stages of the pipeline such as clustering and segmentation.
 
+##  Framework Overview
+![The proposed framework](images/porosity_framework.png)
+
 ##  Repository Contents
 
 | File | Description |
