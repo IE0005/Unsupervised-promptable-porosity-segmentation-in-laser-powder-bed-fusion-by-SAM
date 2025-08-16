@@ -17,18 +17,25 @@ This repository contains code for the [An unsupervised approach towards promptab
 ##  How to Use
 
 1. **Cluster data and collect centroid images**
+
    ```bash
    python data_preprocessing_kmeans.py
    ```
-   **Or to collect medoid images**
-      ```bash
-       python data_preprocessing_kmeds.py
-       ```
-2. **Generate Prompts, run SAM on clustered data, generates masks **
+
+   Or to collect medoid images:
+
+   ```bash
+   python data_preprocessing_kmeds.py
+   ```
+
+2. **Generate prompts and run SAM on clustered data (to generate masks)**
+
    ```bash
    python Prompt_gen_SAM_IoT_thresh.py
    ```
+
 3. **Generate prompts from pseudo ground truth**
+
    ```bash
    python GT_prompts_SAM.py
    ```
