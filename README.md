@@ -20,7 +20,10 @@ This repository contains code for the [An unsupervised approach towards promptab
    ```bash
    python data_preprocessing_kmeans.py
    ```
-
+ **Or to collect medoid images**
+  ```bash
+   python data_preprocessing_kmeds.py
+   ```
 2. **Generate Prompts, run SAM on clustered data, generates masks **
    ```bash
    python Prompt_gen_SAM_IoT_thresh.py
